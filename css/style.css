@@ -542,7 +542,7 @@ body {
   padding: 3rem;
   margin: auto;
   background-color: var(--thrd-color);
-  background-image: url(/img/svg.png);
+  background-image: url(../img/svg.png); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 6rem;
