@@ -123,7 +123,7 @@ body {
   padding: 3rem;
   margin: auto;
   align-items: center;
-  background-image: url(/img/wave.png);
+  background-image: url(img/wave.png);
   background-size: cover;
   background-repeat: repeat-x;
   background-position: -27rem 8.4rem;
@@ -213,7 +213,7 @@ body {
   max-width: 1500px;
   margin: auto;
   background-color: #fee506;
-  background-image: url(/img/wave-2.png);
+  background-image: url(img/wave-2.png);
   background-repeat: no-repeat;
   background-position-y: 10em;
   background-size: cover;
@@ -265,7 +265,7 @@ body {
   padding: 4rem;
   background-color: var(--scnd-colorr);
   margin: auto;
-  background-image: url(/img/wave-3.png);
+  background-image: url(img/wave-3.png);
   background-repeat: no-repeat;
   background-position-y: 5rem;
   background-size: cover;
@@ -334,29 +334,29 @@ body {
 .card-6 .card-header-f {
   border-radius: 10px;
   height: 10rem;
-  background-image: url(/img/services-img/cuci-mobil.jpg);
+  background-image: url(img/services-img/cuci-mobil.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 .card-2 .card-header-b {
-  background-image: url(/img/services-img/exterior-mobil.jpg);
+  background-image: url(img/services-img/exterior-mobil.jpg);
 }
 
 .card-3 .card-header-c {
-  background-image: url(/img/services-img/interior-mobil.jpg);
+  background-image: url(img/services-img/interior-mobil.jpg);
 }
 
 .card-4 .card-header-d {
-  background-image: url(/img/services-img/kaca-mobil.jpeg);
+  background-image: url(img/services-img/kaca-mobil.jpeg);
 }
 
 .card-5 .card-header-e {
-  background-image: url(/img/services-img/velg-mobil.jpg);
+  background-image: url(img/services-img/velg-mobil.jpg);
 }
 
 .card-6 .card-header-f {
-  background-image: url(/img/services-img/motor.jpeg);
+  background-image: url(img/services-img/motor.jpeg);
 }
 /* service */
 
@@ -411,7 +411,7 @@ body {
 .content-product .card-c .card-header,
 .content-product .card-d .card-header,
 .content-product .card-e .card-header {
-  background-image: url(/img/product.png);
+  background-image: url(img/product.png);
   background-position: 0.5rem -3rem;
   background-size: cover;
   background-repeat: no-repeat;
