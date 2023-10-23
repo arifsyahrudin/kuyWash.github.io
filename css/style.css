@@ -411,7 +411,7 @@ body {
 .content-product .card-c .card-header,
 .content-product .card-d .card-header,
 .content-product .card-e .card-header {
-  background-image: url(../img/product.png);
+  background-image: url('/img/product.png');
   background-position: 0.5rem -3rem;
   background-size: cover;
   background-repeat: no-repeat;
