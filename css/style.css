@@ -123,7 +123,7 @@ body {
   padding: 3rem;
   margin: auto;
   align-items: center;
-  background-image: url('/img/wave.png');
+  background-image: url('../img/wave.png');
   background-size: cover;
   background-repeat: repeat-x;
   background-position: -27rem 8.4rem;
@@ -213,7 +213,7 @@ body {
   max-width: 1500px;
   margin: auto;
   background-color: #fee506;
-  background-image: url('/img/wave-2.png');
+  background-image: url('../img/wave-2.png');
   background-repeat: no-repeat;
   background-position-y: 10em;
   background-size: cover;
@@ -265,7 +265,7 @@ body {
   padding: 4rem;
   background-color: var(--scnd-colorr);
   margin: auto;
-  background-image: url('/img/wave-3.png');
+  background-image: url('../img/wave-3.png');
   background-repeat: no-repeat;
   background-position-y: 5rem;
   background-size: cover;
@@ -411,7 +411,7 @@ body {
 .content-product .card-c .card-header,
 .content-product .card-d .card-header,
 .content-product .card-e .card-header {
-  background-image: url('/img/product.png');
+  background-image: url('../img/product.png');
   background-position: 0.5rem -3rem;
   background-size: cover;
   background-repeat: no-repeat;
@@ -542,7 +542,7 @@ body {
   padding: 3rem;
   margin: auto;
   background-color: var(--thrd-color);
-  background-image: url('/img/svg.png'); 
+  background-image: url('../img/svg.png'); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 6rem;
@@ -803,7 +803,7 @@ footer .footer-content {
   /* description-section */
   .jumbotron-section {
     margin: 50px auto 0;
-    background-image: url('/img/wave-5.png');
+    background-image: url('../img/wave-5.png');
     background-size: cover;
     background-position: 98em;
   }
@@ -855,7 +855,7 @@ footer .footer-content {
   /* description-section */
   .jumbotron-section {
     margin: 50px auto 0;
-    background-image: url('/img/wave-5.png');
+    background-image: url('../img/wave-5.png');
     background-size: cover;
     background-repeat: repeat-x;
     background-position: -50rem;
