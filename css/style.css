@@ -126,14 +126,13 @@ body {
   background-image: url("../img/wave.png");
   background-size: cover;
   background-repeat: repeat-x;
-  background-position: -27rem 8.4rem;
+  background-position: -14rem 8.4rem;
 }
 
 .jumbotron-section .content {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5rem;
 }
 
 .content .content-description {
@@ -228,7 +227,6 @@ body {
 
 .about .content-about {
   display: flex;
-  margin-bottom: 5rem;
 }
 
 .content-about .content-about-image {
@@ -293,7 +291,6 @@ body {
   justify-content: center;
   flex-flow: row wrap;
   align-items: center;
-  margin-bottom: 5rem;
 }
 
 .content-service .card-1,
@@ -386,7 +383,6 @@ body {
   justify-content: center;
   flex-flow: row wrap;
   align-items: center;
-  margin-bottom: 5rem;
 }
 
 .content-product .card-a,
@@ -473,7 +469,6 @@ body {
   background: -webkit-linear-gradient(0deg, rgba(254, 229, 6, 1) 3%, rgba(30, 28, 28, 1) 24%);
   background: linear-gradient(0deg, rgba(254, 229, 6, 1) 3%, rgba(30, 28, 28, 1) 24%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fee506",endColorstr="#1e1c1c",GradientType=1);
-
   padding: 4rem;
   margin: auto;
 }
@@ -484,7 +479,6 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 5rem;
 }
 
 .testi-content .card-a1,
@@ -555,7 +549,6 @@ body {
 
 .contact .content-contact {
   display: flex;
-  margin-bottom: 5rem;
   flex-wrap: wrap;
   justify-content: center;
 }
