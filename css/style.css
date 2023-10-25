@@ -123,7 +123,7 @@ body {
   padding: 3rem;
   margin: auto;
   align-items: center;
-  background-image: url('../img/wave.png');
+  background-image: url("../img/wave.png");
   background-size: cover;
   background-repeat: repeat-x;
   background-position: -27rem 8.4rem;
@@ -133,7 +133,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .content .content-description {
@@ -213,7 +213,7 @@ body {
   max-width: 1500px;
   margin: auto;
   background-color: #fee506;
-  background-image: url('../img/wave-2.png');
+  background-image: url("../img/wave-2.png");
   background-repeat: no-repeat;
   background-position-y: 10em;
   background-size: cover;
@@ -228,7 +228,7 @@ body {
 
 .about .content-about {
   display: flex;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .content-about .content-about-image {
@@ -265,7 +265,7 @@ body {
   padding: 4rem;
   background-color: var(--scnd-colorr);
   margin: auto;
-  background-image: url('../img/wave-3.png');
+  background-image: url("../img/wave-3.png");
   background-repeat: no-repeat;
   background-position-y: 5rem;
   background-size: cover;
@@ -289,12 +289,11 @@ body {
 
 .service .content-service {
   display: flex;
-  flex: 1;
   gap: 0.1em 1em;
   justify-content: center;
   flex-flow: row wrap;
   align-items: center;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .content-service .card-1,
@@ -334,29 +333,29 @@ body {
 .card-6 .card-header-f {
   border-radius: 10px;
   height: 10rem;
-  background-image: url('../img/services-img/cuci-mobil.jpg');
+  background-image: url("../img/services-img/cuci-mobil.jpg");
   background-size: cover;
   background-position: center center;
 }
 
 .card-2 .card-header-b {
-  background-image: url('../img/services-img/exterior-mobil.jpg');
+  background-image: url("../img/services-img/exterior-mobil.jpg");
 }
 
 .card-3 .card-header-c {
-  background-image: url('../img/services-img/interior-mobil.jpg');
+  background-image: url("../img/services-img/interior-mobil.jpg");
 }
 
 .card-4 .card-header-d {
-  background-image: url('../img/services-img/kaca-mobil.jpeg');
+  background-image: url("../img/services-img/kaca-mobil.jpeg");
 }
 
 .card-5 .card-header-e {
-  background-image: url('../img/services-img/velg-mobil.jpg');
+  background-image: url("../img/services-img/velg-mobil.jpg");
 }
 
 .card-6 .card-header-f {
-  background-image: url('../img/services-img/motor.jpeg');
+  background-image: url("../img/services-img/motor.jpeg");
 }
 /* service */
 
@@ -383,12 +382,11 @@ body {
 
 .product .content-product {
   display: flex;
-  flex: 1;
   gap: 1em 1.5em;
   justify-content: center;
   flex-flow: row wrap;
   align-items: center;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .content-product .card-a,
@@ -411,7 +409,7 @@ body {
 .content-product .card-c .card-header,
 .content-product .card-d .card-header,
 .content-product .card-e .card-header {
-  background-image: url('../img/product.png');
+  background-image: url("../img/product.png");
   background-position: 0.5rem -3rem;
   background-size: cover;
   background-repeat: no-repeat;
@@ -428,7 +426,7 @@ body {
 .testimonial .card-b2 .card-description,
 .testimonial .card-c3 .card-description,
 .testimonial .card-d4 .card-description,
-.testimonial .card-e5 .card-description{
+.testimonial .card-e5 .card-description {
   padding: 10px;
   text-align: center;
 }
@@ -464,18 +462,17 @@ body {
   box-shadow: 0 28px 1px -10px rgba(0, 0, 0, 0.4);
   transition: 0.3s ease;
 }
-
 /* product */
 
 /* testimonial */
 .testimonial {
   max-width: 1500px;
   width: 100%;
-  background: rgb(254,229,6);
-  background: -moz-linear-gradient(0deg, rgba(254,229,6,1) 3%, rgba(30,28,28,1) 24%);
-  background: -webkit-linear-gradient(0deg, rgba(254,229,6,1) 3%, rgba(30,28,28,1) 24%);
-  background: linear-gradient(0deg, rgba(254,229,6,1) 3%, rgba(30,28,28,1) 24%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fee506",endColorstr="#1e1c1c",GradientType=1); 
+  background: rgb(254, 229, 6);
+  background: -moz-linear-gradient(0deg, rgba(254, 229, 6, 1) 3%, rgba(30, 28, 28, 1) 24%);
+  background: -webkit-linear-gradient(0deg, rgba(254, 229, 6, 1) 3%, rgba(30, 28, 28, 1) 24%);
+  background: linear-gradient(0deg, rgba(254, 229, 6, 1) 3%, rgba(30, 28, 28, 1) 24%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fee506",endColorstr="#1e1c1c",GradientType=1);
 
   padding: 4rem;
   margin: auto;
@@ -487,7 +484,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .testi-content .card-a1,
@@ -542,7 +539,7 @@ body {
   padding: 3rem;
   margin: auto;
   background-color: var(--thrd-color);
-  background-image: url('../img/svg.png'); 
+  background-image: url("../img/svg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 6rem;
@@ -558,7 +555,7 @@ body {
 
 .contact .content-contact {
   display: flex;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -644,7 +641,6 @@ body {
 footer {
   background-color: var(--footer);
   width: 100%;
-  
 }
 
 footer .footer-content {
@@ -658,7 +654,7 @@ footer .footer-content {
 }
 
 .footer-content .footer-image {
-  flex: 1;  
+  flex: 1;
 }
 
 .footer-image img {
@@ -671,7 +667,7 @@ footer .footer-content {
 }
 
 .footer-content .links {
-  flex: 1 0 ;
+  flex: 1 0;
 }
 
 .footer-content .other-info {
@@ -680,11 +676,13 @@ footer .footer-content {
 
 .footer-content h5 {
   font-size: 1.2em;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   margin-bottom: -6px;
 }
 
-.social ul, .links ul, .other-info ul {
+.social ul,
+.links ul,
+.other-info ul {
   display: flex;
   padding: 0;
   list-style-type: none;
@@ -707,12 +705,15 @@ footer .footer-content {
   color: var(--scnd-color);
 }
 
-.footer-content .links ul, .other-info ul {
+.footer-content .links ul,
+.other-info ul {
   list-style-type: none;
   flex-direction: column;
 }
 
-.links li a, .other-info li, .footer-image p {
+.links li a,
+.other-info li,
+.footer-image p {
   color: rgb(163, 162, 162);
   font-weight: 100;
   text-decoration: none;
@@ -803,7 +804,7 @@ footer .footer-content {
   /* description-section */
   .jumbotron-section {
     margin: 50px auto 0;
-    background-image: url('../img/wave-5.png');
+    background-image: url("../img/wave-5.png");
     background-size: cover;
     background-position: 98em;
   }
@@ -831,11 +832,9 @@ footer .footer-content {
   }
   /* description-section */
 
-
   .content-contact .content-image-contact img {
     width: 340px;
   }
-
 
   /* about */
   .content-about .content-about-image img {
@@ -855,7 +854,7 @@ footer .footer-content {
   /* description-section */
   .jumbotron-section {
     margin: 50px auto 0;
-    background-image: url('../img/wave-5.png');
+    background-image: url("../img/wave-5.png");
     background-size: cover;
     background-repeat: repeat-x;
     background-position: -50rem;
