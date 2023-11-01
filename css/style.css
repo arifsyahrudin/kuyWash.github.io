@@ -38,7 +38,6 @@ body {
   z-index: 999;
 }
 
-
 .navbar-container .logo img {
   width: 250px;
   padding-left: 2.3rem;
@@ -50,22 +49,6 @@ body {
   gap: 10px 6px;
   list-style-type: none;
 }
-
-/* extra button */
-.navbar-container .extra-button {
-  font-weight: 550;
-  list-style: none;
-  margin-left: 8px;
-}
-
-.navbar-container .extra-button a {
-  padding: 10px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 650;
-  color: var(--scnd-color);
-  text-decoration: none;
-}
-/* extra button */
 
 .navbar-container .nav-list li a {
   text-decoration: none;
@@ -82,29 +65,29 @@ body {
   transition: ease-out 0.8s;
 }
 
-.navbar-container .extra-button {
+.navbar-container .extra-button a {
   display: flex;
   align-items: center;
+  margin-top: 6px;
+  color: var(--scnd-color);
 }
 
-#menu-button,
-#cancel-button {
+
+#menu-button{
   display: none;
 }
 
-#menu-button svg,
-#cancel-button svg {
+#menu-button .menu-svg {
+  transition: 0.2s ease-in;
   border: 0.2em solid var(--scnd-color);
   border-radius: 10px;
-  transition: 0.3s ease-in;
   width: 40px;
-  height: 40px;
+  height: 35px;
 }
 
-#menu-button svg:hover,
-#cancel-button svg:hover {
-  background-color: var(--scnd-color);
-  color: var(--thrd-color);
+
+#menu-button .menu-svg:active {
+  color: red;
 }
 
 /* header */
@@ -188,6 +171,11 @@ body {
   color: black;
   text-shadow: none;
   box-shadow: 0 0 20px 2px rgb(20, 20, 20);
+}
+
+.jumbotron-description #button-booking:active,
+.form button:active {
+  color: #666666;
 }
 
 .content .content-image {
@@ -731,6 +719,7 @@ footer .footer-content {
   /* navbar */
   #menu-button {
     margin-right: 0.6em;
+    display: inline-block;
   }
 
   .navbar-container {
@@ -779,7 +768,6 @@ footer .footer-content {
 
   .navbar-container .logo img {
     width: 230px;
-    padding-right: 8px;
   }
   /* navbar */
 
@@ -871,7 +859,7 @@ footer .footer-content {
 
   /* about */
   .about {
-    background-position-y: 17.5em;
+    background-position: -25em 20em;
   }
 
   .content-about .content-about-image img {
