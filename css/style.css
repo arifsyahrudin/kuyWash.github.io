@@ -20,7 +20,7 @@ body {
   font-family: "Poppins", sans-serif;
   width: 100%;
   color: #fff;
-  background-color: var(--thrd-color)
+  background-color: var(--scnd-color);
 }
 
 /* header */
@@ -37,6 +37,7 @@ body {
   top: 0;
   z-index: 999;
 }
+
 
 .navbar-container .logo img {
   width: 250px;
@@ -64,14 +65,6 @@ body {
   color: var(--scnd-color);
   text-decoration: none;
 }
-
-.navbar-container .extra-button .daftar {
-  background-color: var(--scnd-color);
-  border-radius: 10px;
-  padding-inline: 1rem;
-  color: yellow;
-}
-
 /* extra button */
 
 .navbar-container .nav-list li a {
